@@ -157,6 +157,11 @@ body {
     margin-top: 32px;
     
   }
+  .konvert-smartfone-svg {
+    margin-right: 10px;
+    fill: currentcolor;
+    align-items: center;
+  }
 .hero {
     background-color: rgba(47, 48, 58, 0.4) ;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Herrofoto.jpg);
@@ -181,6 +186,32 @@ button{
 .list-servises {
   display: flex; 
 }
+.servises::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.servises:nth-child(1)::before {
+  background-image: url(../img/antenna.jpg);
+}
+
+.servises:nth-child(2)::before {
+  background-image: url(../img/clock.jpg);
+}
+
+.servises:nth-child(3)::before {
+  background-image: url(../img/diagram.jpg);
+}
+
+.servises:nth-child(4)::before {
+  background-image: url(../img/astronaut.jpg);
+}
+
 .servises-list {
     font-weight: bold;
     font-size: 14px;
@@ -251,7 +282,45 @@ button{
     margin-top: 0px;
     text-align: center;
     padding-bottom: 30px;
-  
+}
+.social-list-link{
+  display: flex;
+  background-color: #000000;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  fill: #AFB1B8;
+}
+.social-list {
+  display: flex; 
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+.clients-item {
+  Width: 170px;
+  Height: 90px;    
+}
+.clients-section {
+  padding-bottom: 94px;
+  padding-top: 94px ;
 }
 
 .portfolio-btn{
@@ -274,7 +343,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  c
 }
  .portfolio-btn:not(:last-child) {
   margin-right: 8px;    
