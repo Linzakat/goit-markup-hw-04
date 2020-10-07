@@ -203,19 +203,19 @@ button{
   margin-bottom: 30px;
 }
 .servises:nth-child(1)::before {
-  background-image: url(../img/sprite1.svg#icon-antenna);
+  background-image: url(../img/antenna.svg);
 }
 
 .servises:nth-child(2)::before {
-  background-image: url(../img/sprite1.svg#icon-clock);
+  background-image: url(../img/clock.svg);
 }
 
 .servises:nth-child(3)::before {
-  background-image: url(../img/sprite1.svg#icon-diagram);
+  background-image: url(../img/diagram.svg);
 }
 
 .servises:nth-child(4)::before {
-  background-image: url(../img/sprite1.svg#icon-astronaut);
+  background-image: url(../img/astronaut.svg);
 }
 
 .servises-list {
@@ -254,8 +254,10 @@ button{
   margin-right: 30px;
 }
 .list .list-workers {
-  border-radius: 0px 0px 4px 4px;
   background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .workers {
   background: #f5f4fa;
@@ -296,6 +298,7 @@ button{
   width: 44px;
   height: 44px;
   fill: #AFB1B8;
+  display: flex;
 }
 .social-list {
   display: flex; 
