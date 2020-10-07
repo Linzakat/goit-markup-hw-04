@@ -137,6 +137,7 @@ body {
     color:var(--primary-text-color);
     margin-right: 50px;
     margin-left: auto;
+    
 }
 .email:hover,
 .email:focus,
@@ -152,6 +153,8 @@ body {
     font-style: normal;
     list-style: none;
     color:var(--primary-text-color);
+    display: flex;
+    align-items: center;
     
   }
   .container-address {
@@ -195,24 +198,24 @@ button{
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
 }
 .servises:nth-child(1)::before {
-  background-image: url(../img/antenna.jpg);
+  background-image: url(../img/sprite1.svg#icon-antenna);
 }
 
 .servises:nth-child(2)::before {
-  background-image: url(../img/clock.jpg);
+  background-image: url(../img/sprite1.svg#icon-clock);
 }
 
 .servises:nth-child(3)::before {
-  background-image: url(../img/diagram.jpg);
+  background-image: url(../img/sprite1.svg#icon-diagram);
 }
 
 .servises:nth-child(4)::before {
-  background-image: url(../img/astronaut.jpg);
+  background-image: url(../img/sprite1.svg#icon-astronaut);
 }
 
 .servises-list {
@@ -407,8 +410,8 @@ button{
     height: 50px;
     display: block;
     justify-content: center;
-   
-  
+    border-radius: 4px;
+    border: none;
     
 }
 .footer {
