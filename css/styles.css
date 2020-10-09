@@ -293,18 +293,22 @@ button{
 }
 .social-list-link{
   display: flex;
-  background-color:var(--accent-color);
   border-radius: 50%;
   width: 44px;
   height: 44px;
   fill: #AFB1B8;
-  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social-list {
   display: flex; 
   justify-content: space-evenly;
   padding: 0;
   margin: 0;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color:var(--accent-color)
 }
 .clients-title {
   font-weight: bold;
