@@ -321,7 +321,7 @@ button{
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: var(--title-text-color);
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -338,9 +338,24 @@ button{
   Height: 90px;    
 }
 .clients-section {
-  padding-bottom: 94px;
+  padding-bottom: 106px;
   padding-top: 94px ;
 }
+.clients-icon {
+  fill: currentcolor;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Width: 170px;
+  Height: 90px;
+  color: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+}
+
 
 .portfolio-btn{
     font-weight: 500;
