@@ -313,7 +313,6 @@ button{
 }
 .social-list-link:hover .social-svg,
 .social-list-link:focus .social-svg {
-
   fill: var(--primary-white-color);
 }
 .clients-title {
@@ -353,7 +352,12 @@ button{
   color: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color) ;
+  box-sizing: border-box; 
+  color: var(--accent-color);
 }
 
 
