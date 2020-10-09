@@ -310,6 +310,11 @@ button{
 .social-list-link:focus {
   background-color:var(--accent-color)
 }
+.social-list-link:hover .social-svg,
+.social-list-link:focus .social-svg {
+
+  fill: var(--primary-white-color);
+}
 .clients-title {
   font-weight: bold;
   font-size: 36px;
