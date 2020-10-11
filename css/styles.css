@@ -63,12 +63,7 @@ body {
   .header-site-link {
     display: flex;
   }
-  .icon {
-    margin-right: 10px;
-    fill: #757575;
-  }
-  
-  .site-nav {
+   .site-nav {
     display: flex;
     margin-left: 93px;
     
@@ -311,8 +306,8 @@ button{
 .social-list-link:focus {
   background-color:var(--accent-color)
 }
-.social-list-link:hover .social-svg,
-.social-list-link:focus .social-svg {
+.social-list-link .social-svg:hover ,
+.social-list-link .social-svg :focus {
   fill: var(--primary-white-color);
 }
 .clients-title {
@@ -448,6 +443,7 @@ button{
 }
 .footer {
     background: #2F303A;
+  
 }
 .footer .address,
 .footer .email {
@@ -464,6 +460,7 @@ button{
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
 .our-works-box {
     display: block;
@@ -472,6 +469,47 @@ button{
     color:var(--primary-white-color);
     display: flex;
     padding-bottom: 20px;
+}
+.right-footer h2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+.right-footer {
+  pading-top: 72px;
+  margin-left: 70px;
+}
+.social-list-footer {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);;
+  fill: var(--primary-white-color);
+}
+.li-link:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list-link-footer:hover {
+  background-color: var(--accent-color);
+ 
+}
+.social-list-link-footer:hover .social-svg {
+  fill: var(--primary-white-color);
+
 }
 
 img {
